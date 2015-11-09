@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Java Script Persian Date By Saeed Auditore</title>
+	<script type="text/javascript" src="addExt.js"></script>
+	<script type="text/javascript">
+	var d = new Date();
+	</script>
+</head>
+	<body>
+		<h1 id="xx">Persian Date(Native Java Script)</h1>
+		<p>A native Javascript labrary to add support for persian date time</p>
+		<h2>Examples : </h2>
+		<pre>
+var d = new Date();
+d.getPDate();		
+
+<button type="button" onclick="alert(d.getPDate());">RUN</button>
+
+----
+d.getPDay();
+
+<button type="button" onclick="alert(d.getPDay());">RUN</button>
+
+----
+d.getWeekOfYear();
+
+<button type="button" onclick="alert(d.getWeekOfYear());">RUN</button>
+
+----
+d.getPFirstDateOfMonth();
+
+<button type="button" onclick="alert(d.getPFirstDateOfMonth());">RUN</button>
+
+----
+
+	</pre>
+	<pre>
+	<h2>All Methods : </h2>
+setPFullYear = function(y, m, d)
+setPMonth = function(m, d)
+setPDate = function(d)
+getPFullYear = function()
+getPMonth = function() 
+getPDate = function()
+getPDay = function()
+settPUTCFullYear = function(y, m, d)
+settPUTCMonth = function(m, d) 
+setPUTCDate = function(d)
+getPUTCFullYear = function()
+getPUTCMonth = function()
+getPUTCMonth = function()
+getPUTCDate = function()
+getPUTCDay = function()
+PdateFormat = function(format)
+getPDayOfYear = function() 
+getWeekOfYear = function()
+isKabiseYear = function()
+getPFirstDayOfMonth = function()
+getPLastDateOfMonth = function()
+getPDaysInMonth = function()
+getPFirstDateOfMonth = function()
+
+<h2>Class Methods : </h2>
+Date.PersianToGregorian = function(j_y, j_m, j_d)
+Date.GregorianToPersian = function(g_y, g_m, g_d)
+Date.PcheckDate = function(j_y, j_m, j_d)
+Date.getPShortMonthName = function(month) 
+Date.getPMonthNumber = function(name)
+Date.isPValid = function(y, m, d, h, i, s, ms) 
+Date.PparseDate = function(input, format, strict) 
+Date.getPFormatCode = function(character)
+Date.PcreateFormat = function(format)
+Date.PgetFormatCode = function(character)
+
+	</pre>
+	</body>
+	<script type="text/javascript">
+	d = new Date();
+	// alert(d.getPDate());
+	// document.getElementById("xx").innerHTML = Date.PmonthNames;
+	</script>
+</html>
